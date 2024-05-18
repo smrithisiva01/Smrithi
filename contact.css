@@ -1,0 +1,74 @@
+
+*{
+    font-family:georgia;
+    text-decoration:none;
+    list-style: none;
+    margin: 0%;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color:black;
+}
+.logo{
+    color:wheat;
+    font-size :25px;
+    line-height: 70px;
+    margin-left: 50px;
+    font-family:Lucida Handwriting;
+}
+.navbar ul{
+    float: right;
+    margin-right: 50px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 30px;
+    line-height: 70px;
+}
+.navbar ul li a{
+    color:wheat;
+    background-color:transparent;
+    font-size: large;
+    padding:8px;
+}
+.navbar ul li a:hover{
+    border: 1px solid wheat;
+    box-shadow: 0 0 8px;
+    border-radius:30px;
+}
+.name{
+    color:wheat;
+    font-size:xx-large;
+    margin-left:200px;
+    padding: 9px;
+    line-height:70px;
+}
+.card{
+    position: relative;
+    background: linear-gradient(180deg, black, bisque);
+    /* border: 1px solid black; */
+    height: 568px;
+}
+.card1{
+    position: absolute;
+    background-image: url(../images/kawaii-food-cartoon-cute-laptop-ogyj8vwwiybdzgmc.webp);
+    background-size: contain;
+    border-radius: 4px;
+    padding: 32px 24px;
+    height:300px;
+    width: 600px;
+    border-radius: 30px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 350px;
+    color: antiquewhite;
+}
+.card1 p {
+color: black;
+line-height: 50px;
+font-size: large;
+font-weight: bold;
+}
